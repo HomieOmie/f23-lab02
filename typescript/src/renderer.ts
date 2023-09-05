@@ -1,9 +1,9 @@
 
-function newRenderer (shape: Shape) {
+function newRenderer (shape: Shape): { draw: () => void } {
   return {
     draw () {
       const area: number = shape.computeArea()
-      console.log('Shape drawn\n' + 'Its area is ' + area + '\n')
+      console.log('Shape drawn\n' + 'Its area is ' + String(area) + '\n')
     }
   }
 }
