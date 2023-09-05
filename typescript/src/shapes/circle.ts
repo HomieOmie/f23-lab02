@@ -1,3 +1,5 @@
+import { Shape } from './shape'
+
 class Circle implements Shape {
   constructor (private readonly radius: number) {}
 

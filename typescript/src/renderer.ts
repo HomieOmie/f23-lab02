@@ -1,3 +1,4 @@
+import { Shape } from './shapes/shape'
 
 function newRenderer (shape: Shape): { draw: () => void } {
   return {

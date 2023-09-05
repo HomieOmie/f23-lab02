@@ -1,3 +1,5 @@
+import { Shape } from './shape'
+
 class Rectangle implements Shape {
   constructor (private readonly width: number, private readonly height: number) {}
 

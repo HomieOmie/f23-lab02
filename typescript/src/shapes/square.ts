@@ -1,3 +1,5 @@
+import { Shape } from './shape'
+
 class Square implements Shape {
   constructor (private readonly sideLen: number) {}
 
