@@ -6,7 +6,7 @@ class Square implements Shape {
   }
 }
 
-function newSquare(sideLen: number) {
+function newSquare(sideLen: number): Shape {
   return new Square(sideLen)
 }
 

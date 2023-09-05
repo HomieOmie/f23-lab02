@@ -7,7 +7,7 @@ class Circle implements Shape {
 
 }
 
-function newCircle(radius: number) {
+function newCircle(radius: number): Shape {
   return new Circle(radius)
 }
 
